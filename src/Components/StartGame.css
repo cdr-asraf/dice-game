@@ -1,0 +1,41 @@
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 100px;
+  /* background-color: blue; */
+  height: 100vh;
+}
+.hero-image {
+  width: 50%;
+  /* background-color: skyblue; */
+}
+.hero-image img {
+  width: 100%;
+}
+.hero-text {
+  width: 50%;
+  /* background-color: red; */
+}
+.hero-text h1 {
+  font-size: 66px;
+  font-weight: 900;
+  color: #000000;
+  font-family: Poppins;
+  margin-bottom: 0px;
+  justify-self: flex-end;
+}
+.btn {
+  background-color: #000000;
+  color: white;
+  padding: 5px 20px;
+  width: 110px;
+  text-align: center;
+  margin-top: 0;
+  justify-self: end;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}

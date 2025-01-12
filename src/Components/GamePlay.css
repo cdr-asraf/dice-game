@@ -1,0 +1,74 @@
+.gameplay-container {
+  display: flex;
+  flex-direction: column;
+  /* transition: 5000ms ease-in-out; */
+}
+.gameplay-header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+  /* margin-bottom: 20px; */
+  padding: 20px;
+}
+.score-container .score {
+  text-align: center;
+}
+.score-container p {
+  font-weight: 500;
+}
+.dice-values {
+  display: flex;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.dice-values li {
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dice-container p {
+  font-weight: 500;
+}
+.dice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dice img {
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.dice p {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.dice button {
+  margin-bottom: 10px;
+  padding: 5px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.rules {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  font-size: 10px;
+  padding: 20px;
+  background-color: antiquewhite;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
